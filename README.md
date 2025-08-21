@@ -1,4 +1,4 @@
-Welcome! This is my attempt at creating my own 'from scratch' version of scikit-learn. Following the book 'Data Science from Scratch' by Joel Grus.
+Welcome! This is an attempt at creating my own 'from scratch' version of scikit-learn. Following the book 'Data Science from Scratch' by Joel Grus.
 
 Current Features:
 
