@@ -5,3 +5,4 @@ Welcome! This is an attempt at creating my own 'from scratch' version of scikit-
 Current Features:
 
 1. Linear Algebra (Vector & Matrix) functions from scratch: linear_algebra.ipynb
+2. Statistics functions from scratch: statistics.ipynb
