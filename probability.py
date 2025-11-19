@@ -30,7 +30,7 @@ plt.plot(xs,[normal_pdf(x,sigma=0.5) for x in xs],':',label='mu=0,sigma=0.5')
 plt.plot(xs,[normal_pdf(x,mu=-1)   for x in xs],'-.',label='mu=-1,sigma=1')
 plt.legend()
 plt.title("Various Normal pdfs")
-plt.show()
+#plt.show()
 
 # %%
 def normal_cdf(x: float, mu: float = 0, sigma: float = 1) -> float:
@@ -44,7 +44,7 @@ plt.plot(xs,[normal_cdf(x,sigma=0.5) for x in xs],':',label='mu=0,sigma=0.5')
 plt.plot(xs,[normal_cdf(x,mu=-1) for x in xs],'-.',label='mu=-1,sigma=1')
 plt.legend(loc=4) # bottom right
 plt.title("Various Normal cdfs")
-plt.show()
+#plt.show()
 
 # %%
 def inverse_normal_cdf(p: float,
@@ -100,6 +100,6 @@ def binomial_histogram(p : float , n : int , num_points : int) -> None :
     plt.show()
 
 # %%
-binomial_histogram(0.75, 100, 10000)
+#binomial_histogram(0.75, 100, 10000)
 
 
